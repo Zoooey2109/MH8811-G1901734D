@@ -1,0 +1,37 @@
+Windows PowerShell
+版权所有 (C) 2009 Microsoft Corporation。保留所有权利。
+
+PS C:\Users\Administrator> pwd
+
+Path
+----
+C:\Users\Administrator
+
+
+PS C:\Users\Administrator> cd Desktop
+PS C:\Users\Administrator\Desktop> mkdir MH8811_02
+
+
+    目录: C:\Users\Administrator\Desktop
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----         2019/9/21     17:09            MH8811_02
+
+
+PS C:\Users\Administrator\Desktop> cd MH8811_02
+PS C:\Users\Administrator\Desktop\MH8811_02> New-Item -Type File my_file.txt
+
+
+    目录: C:\Users\Administrator\Desktop\MH8811_02
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+-a---         2019/9/21     17:09          0 my_file.txt
+
+
+PS C:\Users\Administrator\Desktop\MH8811_02> cd ..
+PS C:\Users\Administrator\Desktop> rm -Recurse -Force MH8811_02
+PS C:\Users\Administrator\Desktop>
