@@ -1,3 +1,4 @@
+
 # Define greeting to world function
 def gtw():
     print("Hello, world!")
@@ -33,11 +34,10 @@ while True:
         tt()
         continue
     elif n == 0:
-        m = input("Are you sure to exit? Please enter 'yes' or 'no': ")
-        if m == "yes":
-            exit()
-        elif m == "no":
-            continue
+        from tkinter import messagebox
+        messagebox.askokcancel("Exit?","Are you going to leave me? (ToT)")
+        messagebox.showinfo("Info","Thank you for using this program :)")
+        exit()
     else:
         print("Please enter the correct number!")
         continue
