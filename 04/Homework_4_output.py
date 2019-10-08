@@ -2,6 +2,7 @@ Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit 
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> 
 ============ RESTART: E:\Programming Assignments\04\Homework_4.py ============
+>>> 
 Program C1
 
 Before None
@@ -36,5 +37,5 @@ range of my_list: 994.0
 
 Program H1
 
-variance: 84983.802
+variance: 85068.87087087087
 >>> 

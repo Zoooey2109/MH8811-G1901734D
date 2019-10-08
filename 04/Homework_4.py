@@ -119,8 +119,8 @@ def my_variance(my_list):
     sum = 0
     for number in my_list :
         sum = sum + (number - average)**2
-        count = count + 1
-    return sum/count
+        count = count +1
+    return sum/(count-1)
 
 print("\n\nProgram H1\n")
 print("variance:",my_variance(my_list) )
