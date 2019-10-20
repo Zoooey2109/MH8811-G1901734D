@@ -11,7 +11,7 @@ def TicTacDraw(board):
             elif board[i][j] == 2:
                 str = str + "   |"
                 if i != 0:
-                    print("------------")
+                    print(len(board)* "----")
         print(str[:-1])
 
 TicTacDraw([[ 0, 1, 2 ], [ 2, 0, 0 ], [ 1, 1, 2 ]])
